@@ -14,12 +14,18 @@ h1 {
     background-color: #27374D;
     position: relative;
     padding-top: 100px;
-    font-family: "JetBrains Mono", monospace;
-    color: white;
 }
 
-.efeito {
-    text-decoration: underline;
+.nome {
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.textoCabeçalho {
+    font-family: "JetBrains Mono", monospace;
+    color: white;
 }
 
 .celebro-tech1 {
@@ -28,10 +34,30 @@ h1 {
     right: 2%;
 }
 
+.efeito {
+    text-decoration: underline;
+}
+
 .celebro-tech2 {
     position: absolute;
     bottom: 2%;
     left: 2%;
 }
 
-  
+.pulsar {
+    animation: animaçãoTítulo 1s linear infinite;
+}
+
+/**Animações**/
+
+@keyframes animaçãoTítulo {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+}
