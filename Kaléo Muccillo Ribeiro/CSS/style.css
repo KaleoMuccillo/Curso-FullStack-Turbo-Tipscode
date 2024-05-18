@@ -1,14 +1,37 @@
 /**Seção de tags**/
 body {
     margin: 0px;
+    text-align: center;
 }
 
 h1 {
-    margin: 0px;
+    margin: 0 auto;
 }
 
 /**Seção de classes**/
 
 .top-container {
     background-color: #27374D;
+    position: relative;
+    padding-top: 100px;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
 }
+
+.efeito {
+    text-decoration: underline;
+}
+
+.celebro-tech1 {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.celebro-tech2 {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
+  
