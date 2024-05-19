@@ -8,30 +8,59 @@ h1 {
     margin: 0 auto;
 }
 
+hr {
+    border-style: dotted none none;
+    background-color: none;
+    border-color: #27374D;
+    height: 23px;
+    border-width: 15px;
+    width: 60px;
+    margin-bottom: 0px;
+}
+
+figure {
+    margin: 0px 0px 0px 0px;
+    background-color: #526D82;
+    padding: 40px;
+}
+
 /**Seção de classes**/
 
 .top-container {
     background-color: #27374D;
+    margin: 0px 0px 0px 0px;
     position: relative;
     padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.code-img {
+    width: 480px;
+    height: 480px;
 }
 
 .nome {
     font-family: "Dancing Script", cursive;
     color: white;
-    font-size: 500%;
+    font-size: 562.5%;
     font-weight: 700;
 }
 
 .textoCabeçalho {
     font-family: "JetBrains Mono", monospace;
     color: white;
+    font-size: 110%;
 }
 
 .celebro-tech1 {
     position: absolute;
-    top: 2%;
-    right: 2%;
+    top: 1%;
+    right: 1%;
+}
+
+.copyright {
+    margin: 0px auto;
+    padding-bottom: 5px;
 }
 
 .efeito {
@@ -40,8 +69,32 @@ h1 {
 
 .celebro-tech2 {
     position: absolute;
-    bottom: 2%;
-    left: 2%;
+    bottom: 1%;
+    left: 1%;
+}
+
+.middle-container {
+    margin: 0px 0px 0px 0px;
+    background-color: #526D82;
+}
+
+.skill-row {
+    margin: 0px 0px 0px 0px !important;
+    background-color: #526D82;
+}
+
+.credtisPic {
+    position: absolute;
+    display: flex;
+    right: 28%;
+    font-size: 1%;
+    color: white;
+}
+
+.bottom-container {
+    padding-top: 10px;
+    background-color: #27374D;
+    margin: 0px 0px 0px 0px;
 }
 
 .pulsar {
